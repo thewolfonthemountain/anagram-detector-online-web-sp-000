@@ -14,3 +14,5 @@ class Anagram
     array.each {|match_word| match_array << match_word if match_word.split("").sort == @word}
     match_array
   end
+
+end
